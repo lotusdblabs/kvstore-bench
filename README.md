@@ -2,17 +2,21 @@ kvstore-bench
 ============
 
 kvstore-bench is a key-value store benchmarking tool. Currently it supports pogreb, goleveldb, bolt, badger and lotusdb.
-derived from https://github.com/akrylysov/pogreb-bench.
+
+derived from [https://github.com/akrylysov/pogreb-bench](https://github.com/akrylysov/pogreb-bench).
 
 ## Usage
 
-> cd cmd/kv-bench
-> 
-> go build
-> 
-> -- get help:
+build kv-bench binary.
 
+```bash
+cd cmd/kv-bench
+go build
 ```
+
+get help.
+
+```bash
 ➜  kv-bench git:(main) ✗ ./kv-bench --help
 Usage of ./kv-bench:
   -alsologtostderr
@@ -57,4 +61,20 @@ Usage of ./kv-bench:
 
 ## example
 
-> ./kv-bench -c 5 -e lotusdb -n 2000000 -p /tmp/lotusdb -profile mem
+```bash
+./kv-bench -c 5 -e lotusdb -n 2000000 -p /tmp/lotusdb -profile mem
+```
+
+## Running Kvrocks using Docker
+
+build kv-bench image.
+
+```bash
+docker build -t kv-bench .
+```
+
+get help.
+
+```bash
+docker run --rm --name kv-bench -it kv-bench --help
+```
