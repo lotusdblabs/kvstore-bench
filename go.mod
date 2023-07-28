@@ -8,6 +8,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.1.0
 	github.com/lotusdblabs/lotusdb/v2 v2.0.0-20230720135850-08d7c5e97a9a
 	github.com/pkg/profile v1.4.0
+	github.com/rosedblabs/rosedb/v2 v2.2.2-0.20230728140315-2e1cfd7cf460
 	github.com/syndtr/goleveldb v1.0.0
 	go.etcd.io/bbolt v1.3.7
 	golang.org/x/sync v0.3.0
@@ -42,6 +43,7 @@ require (
 	github.com/prometheus/client_model v0.2.1-0.20210607210712-147c58e9608a // indirect
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
+	github.com/rosedblabs/go-immutable-radix/v2 v2.0.1-0.20230614125820-f2a7bc058c90 // indirect
 	github.com/rosedblabs/wal v1.2.1-0.20230720135650-d5d56517e0a3 // indirect
 	go.opencensus.io v0.22.5 // indirect
 	golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1 // indirect
