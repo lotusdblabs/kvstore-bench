@@ -7,6 +7,7 @@ require (
 	github.com/cockroachdb/pebble v0.0.0-20230721221451-fcaeb47a50e0
 	github.com/dgraph-io/badger/v4 v4.1.0
 	github.com/lotusdblabs/lotusdb/v2 v2.0.0-20230720135850-08d7c5e97a9a
+	github.com/nutsdb/nutsdb v0.13.0
 	github.com/pkg/profile v1.4.0
 	github.com/rosedblabs/rosedb/v2 v2.2.2-0.20230728140315-2e1cfd7cf460
 	github.com/syndtr/goleveldb v1.0.0
@@ -26,6 +27,7 @@ require (
 	github.com/cockroachdb/tokenbucket v0.0.0-20230613231145-182959a1fad6 // indirect
 	github.com/dgraph-io/ristretto v0.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
+	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/glog v1.1.1 // indirect
@@ -45,6 +47,8 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/rosedblabs/go-immutable-radix/v2 v2.0.1-0.20230614125820-f2a7bc058c90 // indirect
 	github.com/rosedblabs/wal v1.2.1-0.20230720135650-d5d56517e0a3 // indirect
+	github.com/xujiajun/mmap-go v1.0.1 // indirect
+	github.com/xujiajun/utils v0.0.0-20220904132955-5f7c5b914235 // indirect
 	go.opencensus.io v0.22.5 // indirect
 	golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1 // indirect
 	golang.org/x/net v0.12.0 // indirect
