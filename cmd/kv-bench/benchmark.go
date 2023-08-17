@@ -178,16 +178,6 @@ func benchmark(opts options) error {
 	totalElapsed += elapsed
 	fmt.Printf("put: %.3fs\t%d ops/s\n", elapsed, int(float64(opts.numKeys)/elapsed))
 
-	// Reopen DB.
-	if err := db.Close(); err != nil {
-		return err
-	}
-	shuffle(keys)
-	db, err = kv.NewStore(opts.engine, opts.path)
-	if err != nil {
-		return err
-	}
-
 	// Get.
 	forceGC()
 	start = time.Now()

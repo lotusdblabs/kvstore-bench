@@ -7,6 +7,7 @@ import (
 func newLotusDB(path string) (Store, error) {
 	options := lotusdb.DefaultOptions
 	options.DirPath = path
+	options.BlockCache = 0
 	db, err := lotusdb.Open(options)
 	return &lotusdbStore{db: db}, err
 }
